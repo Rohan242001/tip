@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+#navigation::before {
+  content: "";
+  background-color: black;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+}
+#navigation {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 0px;
+}
+#logo {
+  margin: 30px 44px;
+}
+#logo img {
+  height: 63px;
+  margin: -10px 5px;
+}
+#navigation ul {
+  display: flex;
+  font-family: "Yantramanav", sans-serif;
+}
+#navigation ul li {
+  list-style: none;
+  font-size: 1rem;
+}
+#navigation ul li a {
+  display: block;
+  padding: 20px 27px;
+  text-decoration: none;
+  border-radius: 51px;
+  color: white;
+}
+#navigation ul li a:hover {
+  color: black;
+  background-color: white;
+}
+#home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 44px 0px;
+  height: 500px;
+}
+#home::before {
+  content: "";
+  position: absolute;
+  background: url("../img/backgroung\ section1.jpg") no-repeat center
+    center/cover;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  opacity: 0.6;
+}
+#home h1 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: "Yantramanav", sans-serif;
+}
+#home p {
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Yantramanav", sans-serif;
+  padding: 7px;
+}
+#service {
+  margin: 30px;
+  display: flex;
+}
+#service .box {
+  border: 2px solid brown;
+  margin: 5px;
+  padding: -7px;
+  border-radius: 23px;
+  background-color: #b89393;
+}
+#service .box img {
+  height: 160px;
+  display: block;
+  margin: auto;
+}
+#service .box p {
+  font-family: "Yantramanav", sans-serif;
+}
+#clinte-section {
+  height: 300px;
+}
+#clintes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#clintes img {
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+#contact {
+  position: relative;
+}
+#contact::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+  position: absolute;
+  background: url("../img/contact-us-background.jpg");
+  z-index: -1;
+}
+#contacts-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 34px;
+}
+#contacts-box input {
+  width: 100%;
+  padding: 0.5rem;
+}
+.h-primary {
+  font-size: 2rem;
+  padding: 28px;
+  font-family: "Yantramanav", sans-serif;
+}
+.h-secondary {
+  font-size: 1.5rem;
+  padding: 28px;
+  font-family: "Yantramanav", sans-serif;
+}
+.but {
+  padding: 5px 26px;
+  border: 2px solid black;
+  margin: 10px;
+  color: black;
+  cursor: pointer;
+  background-color: #b89393;
+}
+.but:hover {
+  color: black;
+  background-color: white;
+}
+.center {
+  text-align: center;
+}
